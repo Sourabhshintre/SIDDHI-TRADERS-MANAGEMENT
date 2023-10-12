@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7882A4"
+    tools:context=".sign_Up">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="550dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="25dp"
+            android:background="@drawable/login_linear"
+            android:shadowDx="50"
+            android:shadowDy="50"
+            android:shadowRadius="50" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="--------Register--------"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_marginTop="80dp"
+            android:textStyle="bold"
+            android:textSize="28dp"
+            android:id="@+id/reg"
+            />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/reg"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="40dp"
+            android:gravity="center"
+            android:text="Crete your account. It's free and only take a minute" />
+
+        <EditText
+            android:id="@+id/fnm"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/border"
+            android:hint="First Name"
+            android:padding="12dp" />
+
+        <EditText
+            android:id="@+id/t2"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text"
+            android:layout_marginStart="190dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/border"
+            android:hint="Last Name"
+            android:padding="12dp" />
+
+        <EditText
+            android:id="@+id/t3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/t2"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/border"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:padding="12dp" />
+
+        <EditText
+            android:id="@+id/t4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/t3"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/border"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="12dp" />
+
+        <EditText
+            android:id="@+id/t5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/t4"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/border"
+            android:hint="Mobile No."
+            android:inputType="number"
+            android:padding="12dp" />
+
+        <EditText
+            android:id="@+id/t6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/t5"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/border"
+            android:hint="Address"
+            android:inputType="text"
+            android:padding="12dp" />
+
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/t6"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/login1"
+            android:text="Register Now"
+            android:textAllCaps="false"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/b1"
+            android:text="Already have account?"
+            android:gravity="left"
+            android:layout_marginStart="75dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginTop="60dp"
+            android:textColor="@color/white"
+            />
+
+        <TextView
+            android:id="@+id/signin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/b1"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="100dp"
+            android:gravity="end"
+            android:text="  Sign In"
+            android:onClick="click"
+            android:textColor="#2940D3" />
+    </RelativeLayout>
+</ScrollView>

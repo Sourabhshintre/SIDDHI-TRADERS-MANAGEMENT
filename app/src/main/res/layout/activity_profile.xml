@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ui"
+    tools:context=".Profile"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/border" />
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="MY ACCOUNT"
+        android:textColor="#7971EA"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/im1"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/t1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_x="163dp"
+        android:background="@drawable/account_box_24"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="128dp" />
+
+    <TextView
+
+        android:id="@+id/e1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/im1"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:hint="Name"
+        android:textSize="20dp"
+        android:textStyle="italic"
+         />
+
+    <TextView
+        android:id="@+id/e2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/e1"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:hint="E-Mail ID"
+        android:inputType="number"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/e3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/e2"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:hint="Mobile "
+        android:paddingTop="10dp"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/addr"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/e3"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:hint="Address"
+        android:inputType="number"
+        android:textSize="20dp"
+        android:textStyle="italic"
+
+        />
+  <Button
+      android:layout_marginBottom="50dp"
+      android:layout_width="200dp"
+      android:layout_height="50dp"
+      android:text="Log Out"
+      android:textSize="20dp"
+      android:textStyle="bold|italic"
+      android:layout_below="@id/addr"
+      android:layout_alignParentRight="true"
+      android:layout_marginTop="150dp"
+      android:layout_marginEnd="30dp"
+      android:background="@drawable/border"
+      android:backgroundTint="#F32424"
+      />
+
+
+
+
+
+</RelativeLayout>

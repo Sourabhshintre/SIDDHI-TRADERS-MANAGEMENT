@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/first1"
+    tools:context=".Category">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/cat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="ALL CATEGORIES  HERE..!"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <ViewFlipper
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:flipInterval="2000"
+            android:autoStart="true"
+            android:id="@+id/vflip"
+            android:inAnimation="@android:anim/slide_in_left"
+            android:outAnimation="@android:anim/slide_out_right"
+            android:layout_below="@+id/cat">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/tiles"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/tank"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/basin"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/pipes"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/tileslogo"/>
+        </ViewFlipper>
+
+        <ImageButton
+            android:id="@+id/im1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/vflip"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/tank"
+            android:onClick="click2" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="TANKS"
+            android:paddingStart="40dp"
+            android:paddingVertical="10dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_below="@id/im1"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/border1"
+            />
+
+        <ImageButton
+            android:id="@+id/im2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/vflip"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/basin"
+            android:onClick="click3" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="BASINS"
+            android:paddingStart="50dp"
+            android:paddingVertical="10dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_below="@id/im2"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="200dp"
+            android:background="@drawable/border1"
+            />
+
+        <ImageButton
+            android:id="@+id/im3"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/im1"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="90dp"
+            android:background="@drawable/tiles"
+            android:onClick="click1" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/im3"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/border1"
+            android:paddingVertical="10dp"
+            android:paddingStart="40dp"
+            android:text="TILES"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/im4"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/im2"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="90dp"
+            android:background="@drawable/pipes"
+            android:onClick="click4" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="PIPES"
+            android:paddingStart="35dp"
+            android:paddingVertical="10dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:id="@+id/ele"
+            android:layout_below="@id/im4"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="200dp"
+            android:background="@drawable/border1"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_below="@id/ele"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/ui" />
+        />
+
+        <ImageButton
+            android:id="@+id/home"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/ele"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="50dp"
+            android:onClick="click5"
+            android:background="@drawable/home" />
+
+        <ImageButton
+            android:id="@+id/acc"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/ele"
+            android:layout_marginStart="145dp"
+            android:layout_marginTop="50dp"
+            android:onClick="click6"
+            android:background="@drawable/caterories" />
+
+        <ImageButton
+            android:id="@+id/nav"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/ele"
+            android:layout_marginStart="260dp"
+            android:layout_marginTop="50dp"
+            android:onClick="click7"
+            android:background="@drawable/account"
+            android:paddingBottom="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="45dp"
+            android:layout_below="@id/nav"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Categories"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="137dp"
+            android:layout_below="@id/nav"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Account"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="255dp"
+            android:layout_below="@id/nav"
+            />
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/otpv"
+    tools:context=".verification">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/reg1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:text="Register Yourself"
+            android:textColor="#333C83"
+            android:textSize="35dp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Please verify your mobile number"
+            android:layout_below="@+id/reg1"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:id="@+id/reg2"
+            />
+
+        <ImageView
+            android:id="@+id/reg3"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/reg2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/otp" />
+
+
+
+        <TextView
+            android:id="@+id/mob1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/reg3"
+            android:layout_marginStart="195dp"
+            android:layout_marginTop="31dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/reg4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mob1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/border"
+            android:drawableLeft="@drawable/ic_baseline_lock_open_24"
+            android:drawablePadding="20dp"
+            android:hint="Enter OTP"
+            android:inputType="numberPassword"
+            android:padding="12dp"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/reg4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="100dp"
+            android:background="@drawable/btn"
+            android:text="Verify"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+            />
+
+
+
+
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cpp">
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CPP">
+        <activity
+            android:name=".buy_confirm"
+            android:exported="false" />
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyA3Pc3gjP68VCwR71Na8SGSav0YDF4sz_A" />
+
+        <activity
+            android:name=".shop_location"
+            android:exported="false"
+            android:label="@string/title_activity_shop_location" />
+        <activity
+            android:name=".px12"
+            android:exported="false" />
+        <activity
+            android:name=".px11"
+            android:exported="false" />
+        <activity
+            android:name=".px10"
+            android:exported="false" />
+        <activity
+            android:name=".px9"
+            android:exported="false" />
+        <activity
+            android:name=".px8"
+            android:exported="false" />
+        <activity
+            android:name=".px7"
+            android:exported="false" />
+        <activity
+            android:name=".px6"
+            android:exported="false" />
+        <activity
+            android:name=".px5"
+            android:exported="false" />
+        <activity
+            android:name=".px4"
+            android:exported="false" />
+        <activity
+            android:name=".px3"
+            android:exported="false" />
+        <activity
+            android:name=".px2"
+            android:exported="false" />
+        <activity
+            android:name=".px1"
+            android:exported="false" />
+        <activity
+            android:name=".ppv4"
+            android:exported="false" />
+        <activity
+            android:name=".ppv3"
+            android:exported="false" />
+        <activity
+            android:name=".ppv2"
+            android:exported="false" />
+        <activity
+            android:name=".ppv1"
+            android:exported="false" />
+        <activity
+            android:name=".pvc4"
+            android:exported="false" />
+        <activity
+            android:name=".pvc3"
+            android:exported="false" />
+        <activity
+            android:name=".pvc2"
+            android:exported="false" />
+        <activity
+            android:name=".pvc1"
+            android:exported="false" />
+        <activity
+            android:name=".pc2"
+            android:exported="false" />
+        <activity
+            android:name=".pc1"
+            android:exported="false" />
+        <activity
+            android:name=".br6"
+            android:exported="false" />
+        <activity
+            android:name=".br5"
+            android:exported="false" />
+        <activity
+            android:name=".br4"
+            android:exported="false" />
+        <activity
+            android:name=".br3"
+            android:exported="false" />
+        <activity
+            android:name=".br2"
+            android:exported="false" />
+        <activity
+            android:name=".br1"
+            android:exported="false" />
+        <activity
+            android:name=".bce7"
+            android:exported="false" />
+        <activity
+            android:name=".bce6"
+            android:exported="false" />
+        <activity
+            android:name=".bce5"
+            android:exported="false" />
+        <activity
+            android:name=".bce4"
+            android:exported="false" />
+        <activity
+            android:name=".bce3"
+            android:exported="false" />
+        <activity
+            android:name=".bce2"
+            android:exported="false" />
+        <activity
+            android:name=".bce1"
+            android:exported="false" />
+        <activity
+            android:name=".bf7"
+            android:exported="false" />
+        <activity
+            android:name=".bf6"
+            android:exported="false" />
+        <activity
+            android:name=".bf5"
+            android:exported="false" />
+        <activity
+            android:name=".bf4"
+            android:exported="false" />
+        <activity
+            android:name=".bf3"
+            android:exported="false" />
+        <activity
+            android:name=".bf2"
+            android:exported="false" />
+        <activity
+            android:name=".bf1"
+            android:exported="false" />
+        <activity
+            android:name=".bc8"
+            android:exported="false" />
+        <activity
+            android:name=".bc7"
+            android:exported="false" />
+        <activity
+            android:name=".bc6"
+            android:exported="false" />
+        <activity
+            android:name=".bc5"
+            android:exported="false" />
+        <activity
+            android:name=".bc4"
+            android:exported="false" />
+        <activity
+            android:name=".bc3"
+            android:exported="false" />
+        <activity
+            android:name=".bc2"
+            android:exported="false" />
+        <activity
+            android:name=".bc1"
+            android:exported="false" />
+        <activity
+            android:name=".o10"
+            android:exported="false" />
+        <activity
+            android:name=".o9"
+            android:exported="false" />
+        <activity
+            android:name=".o8"
+            android:exported="false" />
+        <activity
+            android:name=".o7"
+            android:exported="false" />
+        <activity
+            android:name=".o6"
+            android:exported="false" />
+        <activity
+            android:name=".o5"
+            android:exported="false" />
+        <activity
+            android:name=".o4"
+            android:exported="false" />
+        <activity
+            android:name=".o3"
+            android:exported="false" />
+        <activity
+            android:name=".o2"
+            android:exported="false" />
+        <activity
+            android:name=".o1"
+            android:exported="false" />
+        <activity
+            android:name=".b13"
+            android:exported="false" />
+        <activity
+            android:name=".b12"
+            android:exported="false" />
+        <activity
+            android:name=".b11"
+            android:exported="false" />
+        <activity
+            android:name=".b10"
+            android:exported="false" />
+        <activity
+            android:name=".b9"
+            android:exported="false" />
+        <activity
+            android:name=".b8"
+            android:exported="false" />
+        <activity
+            android:name=".b7"
+            android:exported="false" />
+        <activity
+            android:name=".b6"
+            android:exported="false" />
+        <activity
+            android:name=".b5"
+            android:exported="false" />
+        <activity
+            android:name=".b4"
+            android:exported="false" />
+        <activity
+            android:name=".b3"
+            android:exported="false" />
+        <activity
+            android:name=".b1"
+            android:exported="false" />
+        <activity
+            android:name=".BlackAgate"
+            android:exported="false" />
+        <activity
+            android:name=".Agate"
+            android:exported="false" />
+        <activity
+            android:name=".Empredor"
+            android:exported="false" />
+        <activity
+            android:name=".Marquina"
+            android:exported="false" />
+        <activity
+            android:name=".Dyna"
+            android:exported="false" />
+        <activity
+            android:name=".teak"
+            android:exported="false" />
+        <activity
+            android:name=".Breccia"
+            android:exported="false" />
+        <activity
+            android:name=".Agaria"
+            android:exported="false" />
+        <activity
+            android:name=".Beige"
+            android:exported="false" />
+        <activity
+            android:name=".Bottino"
+            android:exported="false" />
+        <activity
+            android:name=".Flourishpink"
+            android:exported="false" />
+        <activity
+            android:name=".DynaCrema1"
+            android:exported="false" />
+        <activity
+            android:name=".rcctankbuy"
+            android:exported="false" />
+        <activity
+            android:name=".undergroundtankbuy"
+            android:exported="false" />
+        <activity
+            android:name=".lofttankbuy"
+            android:exported="false" />
+        <activity
+            android:name=".threelayertank_buy"
+            android:exported="false" />
+        <activity
+            android:name=".print"
+            android:exported="false" />
+        <activity
+            android:name=".impression_buy"
+            android:exported="false" />
+        <activity
+            android:name=".gres_buy"
+            android:exported="false" />
+        <activity
+            android:name=".print_90"
+            android:exported="false" />
+        <activity
+            android:name=".mosiac_buy"
+            android:exported="false" />
+        <activity
+            android:name=".minimilastic_buy"
+            android:exported="false" />
+        <activity
+            android:name=".digital90"
+            android:exported="false" />
+        <activity
+            android:name=".royal45buy"
+            android:exported="false" />
+        <activity
+            android:name=".royal_90buy"
+            android:exported="false" />
+        <activity
+            android:name=".digitaltiles"
+            android:exported="false" />
+        <activity
+            android:name=".hdtiles_buy"
+            android:exported="false" />
+        <activity
+            android:name=".buy"
+            android:exported="false" />
+        <activity
+            android:name=".copper_pipes"
+            android:exported="false" />
+        <activity
+            android:name=".pex_pipes"
+            android:exported="false" />
+        <activity
+            android:name=".pvc_pipes"
+            android:exported="false" />
+        <activity
+            android:name=".cpvc_pipes"
+            android:exported="false" />
+        <activity
+            android:name=".regularbasins"
+            android:exported="false" />
+        <activity
+            android:name=".ceramicbasins"
+            android:exported="false" />
+        <activity
+            android:name=".FreeStandingtypes"
+            android:exported="false" />
+        <activity
+            android:name=".Countertypes"
+            android:exported="false" />
+        <activity
+            android:name=".Outdoortiles"
+            android:exported="false" />
+        <activity
+            android:name=".bedroomtiles"
+            android:exported="false" />
+        <activity
+            android:name=".Floortilestypes"
+            android:exported="false" />
+        <activity
+            android:name=".KitchenTiletypes"
+            android:exported="false" />
+        <activity
+            android:name=".verification"
+            android:exported="false" />
+        <activity
+            android:name=".three_layerTank"
+            android:exported="false" />
+        <activity
+            android:name=".sign_Up"
+            android:exported="false" />
+        <activity
+            android:name=".pipes"
+            android:exported="false" />
+        <activity
+            android:name=".basins"
+            android:exported="false" />
+        <activity
+            android:name=".tanks"
+            android:exported="false" />
+        <activity
+            android:name=".tiles"
+            android:exported="false" />
+        <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
+            android:name=".Orders"
+            android:exported="false" />
+        <activity
+            android:name=".Category"
+            android:exported="false" />
+        <activity
+            android:name=".Cart"
+            android:exported="false" />
+        <activity
+            android:name=".first_page"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".three_layerTank">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:text="TANKS"
+            android:textSize="40dp"
+            android:textStyle="italic" />
+
+        <ViewFlipper
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:flipInterval="2000"
+            android:autoStart="true"
+            android:id="@+id/vflip"
+            android:inAnimation="@android:anim/slide_in_left"
+            android:outAnimation="@android:anim/slide_out_right"
+            android:layout_below="@+id/t1">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/tank2"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/tank3"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/t11"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/tank4"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/tank5"/>
+        </ViewFlipper>
+
+
+        <ImageButton
+
+            android:id="@+id/im6"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/vflip"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/t11" />
+
+
+
+        <ImageButton
+            android:id="@+id/im7"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/vflip"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/tank4"
+            />
+
+
+        <ImageButton
+            android:id="@+id/im8"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/im6"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/tank5" />
+
+
+
+        <ImageButton
+            android:id="@+id/im9"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/im7"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="55dp"
+            android:background="@drawable/tank" />
+
+
+
+    </RelativeLayout>
+</ScrollView>

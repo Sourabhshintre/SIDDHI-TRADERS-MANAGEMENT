@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/ui"
+    tools:context=".Cart">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="110dp"
+        android:text="MY CART"
+        android:textStyle="bold|italic"
+        android:textSize="50dp"
+        android:textColor="@color/design_default_color_primary"/>
+  <ListView
+      android:id="@+id/lv"
+      android:layout_width="match_parent"
+      android:layout_height="450dp"
+      />
+
+    <TextView
+        android:textColor="#F32424"
+        android:id="@+id/order"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:textSize="30sp"
+        android:gravity="center"/>
+    <Button
+        android:id="@+id/buy"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="BUY now"
+        android:textStyle="italic|bold"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/buyb1"
+        android:onClick="buy"
+        />
+
+
+</LinearLayout>

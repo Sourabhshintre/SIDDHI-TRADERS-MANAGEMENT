@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".cpvc_pipes"
+    android:background="#9ADCFF">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CPVC Pipes Design"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:background="@color/purple_700"
+        android:textSize="30dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+      >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:layout_marginTop="15dp"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:onClick="click1"
+                android:src="@drawable/pipes">
+            </ImageButton>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Plastic CPVC"
+                    android:textSize="20dp"
+                    android:layout_marginStart="70dp"
+                    android:layout_marginTop="12dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold">
+                </TextView>
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="80dp"
+                    android:src="@drawable/favourite"/>
+            </LinearLayout>
+
+            <ImageButton
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:onClick="click2"
+                android:src="@drawable/cpvc1">
+            </ImageButton>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="King CPVC"
+                    android:textSize="20dp"
+                    android:layout_marginStart="70dp"
+                    android:layout_marginTop="12dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold">
+                </TextView>
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="80dp"
+                    android:src="@drawable/favourite" />
+            </LinearLayout>
+
+            <ImageButton
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:onClick="click3"
+                android:src="@drawable/cpvc2">
+            </ImageButton>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Ashirwad"
+                    android:textSize="20dp"
+                    android:layout_marginStart="70dp"
+                    android:layout_marginTop="12dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold">
+                </TextView>
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="80dp"
+                    android:src="@drawable/favourite"/>
+            </LinearLayout>
+
+            <ImageButton
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:onClick="click4"
+                android:src="@drawable/cpvc3">
+            </ImageButton>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Skipper"
+                    android:textSize="20dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="12dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold">
+                </TextView>
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="80dp"
+                    android:src="@drawable/favourite"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Outdoortiles"
+    android:background="#9ADCFF">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Outdoor tiles Design"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:background="@color/purple_700"
+        android:textSize="30dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:layout_marginTop="15dp"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/outdoor1"
+                android:onClick="o1">
+            </ImageButton>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Exterior "
+                    android:textSize="20dp"
+                    android:layout_marginStart="70dp"
+                    android:layout_marginTop="12dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold">
+                </TextView>
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="80dp"
+                    android:src="@drawable/favourite"/>
+            </LinearLayout>
+
+            <ImageButton
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/outdoor2"
+                android:onClick="o2">
+            </ImageButton>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Exterior Premium"
+                    android:textSize="20dp"
+                    android:layout_marginStart="70dp"
+                    android:layout_marginTop="12dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold">
+                </TextView>
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="80dp"
+                    android:src="@drawable/favourite" />
+            </LinearLayout>
+
+            <ImageButton
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/outdoor3"
+                android:onClick="o3">
+            </ImageButton>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Digital Brown"
+                    android:textSize="20dp"
+                    android:layout_marginStart="70dp"
+                    android:layout_marginTop="12dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold">
+                </TextView>
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="80dp"
+                    android:src="@drawable/favourite"/>
+            </LinearLayout>
+
+            <ImageButton
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/outdoor4"
+                android:onClick="o4">
+            </ImageButton>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Exterior Grey"
+                    android:textSize="20dp"
+                    android:layout_marginStart="70dp"
+                    android:layout_marginTop="12dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold">
+                </TextView>
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="80dp"
+                    android:src="@drawable/favourite"/>
+            </LinearLayout>
+
+            <ImageButton
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/outdoor5"
+                android:onClick="o5">
+            </ImageButton>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Exterior Star"
+                    android:textSize="20dp"
+                    android:layout_marginStart="70dp"
+                    android:layout_marginTop="12dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold">
+                </TextView>
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="80dp"
+                    android:src="@drawable/favourite"/>
+            </LinearLayout>
+
+            <ImageButton
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/outdoor6"
+                android:onClick="o6">
+            </ImageButton>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Digital Way"
+                    android:textSize="20dp"
+                    android:layout_marginStart="70dp"
+                    android:layout_marginTop="12dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold">
+                </TextView>
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="80dp"
+                    android:src="@drawable/favourite"/>
+            </LinearLayout>
+
+            <ImageButton
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/outdoor7"
+                android:onClick="o7">
+            </ImageButton>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Black and White"
+                    android:textSize="20dp"
+                    android:layout_marginStart="70dp"
+                    android:layout_marginTop="12dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold">
+                </TextView>
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="80dp"
+                    android:src="@drawable/favourite"/>
+            </LinearLayout>
+
+            <ImageButton
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/outdoor8"
+                android:onClick="o8">
+            </ImageButton>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Exterior New"
+                    android:textSize="20dp"
+                    android:layout_marginStart="70dp"
+                    android:layout_marginTop="12dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold">
+                </TextView>
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="80dp"
+                    android:src="@drawable/favourite"/>
+            </LinearLayout>
+
+            <ImageButton
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/outdoor9"
+                android:onClick="o9">
+            </ImageButton>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Exterior"
+                    android:textSize="20dp"
+                    android:layout_marginStart="70dp"
+                    android:layout_marginTop="12dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold">
+                </TextView>
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="80dp"
+                    android:src="@drawable/favourite"/>
+            </LinearLayout>
+
+            <ImageButton
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/outdoor10"
+                android:onClick="o10">
+            </ImageButton>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Exterior Back"
+                    android:textSize="20dp"
+                    android:layout_marginStart="70dp"
+                    android:layout_marginTop="12dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold">
+                </TextView>
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="80dp"
+                    android:src="@drawable/favourite"/>
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

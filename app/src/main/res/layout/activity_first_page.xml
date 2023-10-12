@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".first_page">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="0dp"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:background="#DA1212"
+        android:fontFamily="sans-serif-thin"
+        android:gravity="center"
+        android:text="WELCOME TO SIDDHI TRADERS SHOP"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_below="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/border" />
+
+
+    <ViewFlipper
+
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/t1"
+        android:autoStart="true"
+        android:flipInterval="3000"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/bathroomtile1"
+           />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/basin_2" />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/water" />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/basin_1" />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/water2" />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/b3" />
+
+
+    </ViewFlipper>
+
+
+        <ImageButton
+            android:id="@+id/im1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="620dp"
+            android:background="@drawable/caticon"
+            android:onClick="click1" />
+
+    <ImageButton
+        android:id="@+id/im2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="620dp"
+        android:background="@drawable/carticon"
+        android:onClick="click2" />
+
+    <ImageButton
+        android:id="@+id/im3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="620dp"
+        android:background="@drawable/history"
+        android:onClick="click3" />
+
+    <ImageButton
+        android:id="@+id/im4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="310dp"
+        android:layout_marginTop="620dp"
+        android:background="@drawable/loginicon"
+        android:onClick="click4" />
+</RelativeLayout>
+</ScrollView>

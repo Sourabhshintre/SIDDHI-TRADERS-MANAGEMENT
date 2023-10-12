@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".tiles">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="WELCOME TO TILES SECTION"
+            android:textColor="#D82148"
+            android:textSize="23dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/im1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@+id/t1"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/tileslogo" />
+
+        <ViewFlipper
+            android:id="@+id/vflip"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/im1"
+            android:autoStart="true"
+            android:flipInterval="2000"
+            android:inAnimation="@android:anim/slide_in_left"
+            android:outAnimation="@android:anim/slide_out_right">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/kitchen1" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/floor3"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/bw11"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/outdoor9"/>
+
+        </ViewFlipper>
+
+
+        <ImageButton
+
+            android:id="@+id/im6"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/vflip"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/kitchenclipart"
+            android:onClick="click" />
+
+        <TextView
+            android:id="@+id/tt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/im6"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:text="Kitchen Tiles"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="italic" />
+
+        <ImageButton
+            android:id="@+id/im7"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/vflip"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="50dp"
+            android:onClick="click1"
+            android:src="@drawable/floorclipart" />
+
+        <TextView
+            android:id="@+id/t7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/im7"
+            android:layout_marginStart="220dp"
+            android:layout_marginTop="5dp"
+            android:text="Floor Tiles"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="italic" />
+
+        <ImageButton
+            android:id="@+id/im8"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/im6"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="50dp"
+            android:onClick="click2"
+            android:src="@drawable/bedroomclipart" />
+
+        <TextView
+            android:id="@+id/t8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/im8"
+            android:layout_marginStart="30dp"
+            android:text="Bedroom Wall Tiles"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="italic" />
+
+        <ImageButton
+            android:id="@+id/im9"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/im7"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="45dp"
+            android:background="@drawable/outdoortile"
+            android:onClick="click3" />
+
+        <TextView
+            android:id="@+id/t9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/im9"
+            android:layout_marginStart="220dp"
+            android:layout_marginTop="5dp"
+            android:text="Outdoor Tiles"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="italic" />
+    </RelativeLayout>
+</ScrollView>
